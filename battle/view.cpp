@@ -1,18 +1,13 @@
 #include <conio.h>
 #include <iostream>
 #include <Windows.h>
+#include "view.h"
 
 using namespace std;
 
-class view
-{
-public:
-	view();
-	~view();
-
-	HANDLE hConsloe = GetStdHandle(STD_OUTPUT_HANDLE);
 
 	void drawer() {
+		HANDLE hConsloe = GetStdHandle(STD_OUTPUT_HANDLE);
 		SetConsoleTitle(L"Ships");
 		const int ROW = 10;
 		const int COL = 10;
@@ -23,6 +18,3 @@ public:
 			system("color f0");
 		}
 	}
-
-};
-

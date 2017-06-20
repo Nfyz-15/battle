@@ -1,13 +1,8 @@
 #include <conio.h>
 #include <iostream>
+#include "options.h"
 
 using namespace std;
-
-class options
-{
-public:
-	options();
-	~options();
 
 	void keyAdapter() {
 		enum VKey { MVK_UP = 72, MVK_LEFT = 75, MVK_RIGHT = 77, MVK_DOWN = 80, MVK_F12 = 134, MVK_ESC = 27, MVK_ENTER = 13 };
@@ -55,8 +50,4 @@ public:
 		}
 	}
 
-	/*void mouseAdapter() {1
-
-	}*/
-};
 

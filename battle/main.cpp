@@ -1,9 +1,13 @@
 #include <iostream>
 #include <conio.h>
-#include "view.cpp"
+#include "View.h"
+#include "Logic.h"
+#include "Options.h"
 
 
 void main() {
-	view.drawer();
+	View objView;
+	objView.drawer();
 
+	system("pause");
 }

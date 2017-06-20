@@ -1,2 +1,8 @@
-﻿  main.cpp
-  battle.vcxproj -> c:\users\home\documents\visual studio 2015\Projects\battle\Debug\battle.exe
+﻿  view.cpp
+  Создание кода...
+  Пропуск... (изменения не обнаружены)
+  main.cpp
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall View::View(void)" (??0View@@QAE@XZ) в функции _main
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall View::~View(void)" (??1View@@QAE@XZ) в функции _main
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall View::drawer(void)" (?drawer@View@@QAEXXZ) в функции _main
+C:\Users\Home\documents\visual studio 2015\Projects\battle\Debug\battle.exe : fatal error LNK1120: неразрешенных внешних элементов: 3
